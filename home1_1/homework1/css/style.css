@@ -1,0 +1,19 @@
+.bold{
+    font-weight: bold;
+}
+.cursiv{
+    font-style: oblique;
+}
+.decor{
+    text-decoration: underline;
+}
+.bold2{
+    font-weight: bold;
+}
+.decor2{
+    text-decoration: underline;
+}
+/* font-size: размер шрифта
+font-weight:жирный
+font-style:курсив
+text-decoration: underline; подчеркнутый */

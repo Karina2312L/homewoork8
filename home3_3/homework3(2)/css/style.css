@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid rgb(133, 6, 31);
+   width: 150px;
+}
+.top{
+    width: 100px;
+    height: 100px;
+    padding: 15px, 10px, 20px, 10px;
+    margin: 20px;
+    border: 1px solid rgb(133, 6, 31);
+    border-radius: 70%;
+
+    background: red;
+}
+
+.middle{
+    width: 100px;
+    height: 100px;
+    padding: 15px, 10px, 20px, 10px;
+    margin: 20px;
+    border: 1px solid rgb(85, 57, 4);
+    border-radius: 70%;
+    
+    background: orange;
+}
+
+.bottom{
+    width: 100px;
+    height: 100px;
+    padding: 15px, 10px, 20px, 10px;
+    margin: 20px;
+    border: 1px solid rgb(6, 68, 6);
+    border-radius: 70%;
+    
+    background: green;
+}

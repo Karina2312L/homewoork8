@@ -1,0 +1,55 @@
+p {
+    font-size: 18px ;
+    /* font-weight: ;
+    font-family: ;
+    font-style: ; /*можно font: и по очереди все что выше,так короче но сложнее     */
+    /* background:  ;
+     line-height: 25px;    можно в %  или в em,    */
+} 
+span {
+    font-size:15px;
+}
+.block {
+    font-size: 15px;
+}
+
+ul{
+    list-style: square;   /*  маркеры в списках,можно круглые , квадратные и тд */
+}
+
+
+ul li {
+    font-size: 15px;
+    color: green;   /* color: rgb(255,255,255); end  color: rgba(197,28,28,0.5)плотность цвета  */
+}
+ul li:first-child{
+    color: red;
+}
+ul li:last-child{
+    color:blue;
+}
+li span {
+    color: chartreuse;
+}
+ul li:nth-child(4){
+    color: deeppink;
+}
+
+li>span{
+    color: cyan;
+}
+ul li:nth-child(odd){
+    color: palevioletred;
+}
+.block-2{
+    font-size: 12px;
+    background:grey ;
+}
+.block-2::before{
+    content: 'before';
+}
+
+font-size: размер шрифта
+font-weight:жирный
+font-style:курсив
+text-decoration: underline; подчеркнутый
